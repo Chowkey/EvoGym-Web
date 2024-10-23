@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app{
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
+
+.classScroll::-webkit-scrollbar {
+  height: 12px;               /* width of the entire scrollbar */
+}
+
+.classScroll::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);   
+}
+
+.classScroll::-webkit-scrollbar-thumb {
+  background-color: rgb(208, 167, 79);    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+
+}
