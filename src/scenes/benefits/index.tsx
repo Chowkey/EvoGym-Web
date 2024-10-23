@@ -1,7 +1,7 @@
 import { AcademicCapIcon, UserGroupIcon, HomeModernIcon} from "@heroicons/react/24/solid"
 import { SelectedPage } from "@/shared/types"
 import HText from "@/shared/HText"
-import {motion, stagger} from 'framer-motion'
+import {motion} from 'framer-motion'
 import {BenefitType} from "@/shared/types"
 import Benefit from "./Benefit"
 import ActionButton from "@/shared/ActionButton"

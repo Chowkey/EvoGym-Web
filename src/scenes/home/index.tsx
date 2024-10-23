@@ -9,7 +9,6 @@ import SponsorFortune from "@/assets/SponsorFortune.png";
 import useMediaQuery from '@/hooks/useMediaQuery';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {motion} from 'framer-motion';
-import TestImage from "@/assets/HomePage.svg"
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
